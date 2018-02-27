@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Business List</title>
+        <link rel="stylesheet" type="text/css" href="static/CSS/style.css">
+        <link rel="shortcut icon" href="static/IMG/favicon.ico">
+    </head>
+    <body>
+        <div>
+            <div>
+                <nav class=" navbar navbar-expand-lg navbar-light bg-light ">
+                    <div>
+                        <h1><a href="#">WeConnect</a></h1>
+                    </div>
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsiblepanel" aria-controls="collapsiblepanel" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="justify-content-end collapse navbar-collapse" id="collapsiblepanel">
+                        <ul class="nav nav-pills navbar-nav ">
+                            <li class="nav-item "><a class="nav-link" href="#">Dashboard</a></li>
+                            <li class="nav-item "><a class="nav-link" href="reg_business.html">Register Business</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="#">Businesses</a></li>
+                            <li class="nav-item"><a class="nav-link" href="index.html">Logout</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            
+            <div class="my-bg-img">
+                <div class="navbar navbar-dark justify-content-end">
+                    <form class="form-inline" action="#">
+                        <input type="text" class="form-control mr-sm-2" placeholder="Search">
+                        <div class="nav-item dropdown">
+                            <button type="button" class="nav-link dropdown-toggle btn btn-primary" data-toggle="dropdown" id="category">Category filter</button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">First Category</a>
+                                <a class="dropdown-item" href="#">Second Category</a>
+                                <a class="dropdown-item" href="#">Third Category</a>
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <button type="button" class="nav-link dropdown-toggle btn btn-primary" data-toggle="dropdown" id="location">Location filter</button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">First Location</a>
+                                <a class="dropdown-item" href="#">Second Location</a>
+                                <a class="dropdown-item" href="#">Third Location</a>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-success">Search</button>
+                    </form>
+                </div>
+                <div class="table-center">
+                    <table class="table table-bordered table-hover table-sm" >
+                        <thead>
+                            <tr>
+                                <th>Business name</th>
+                                <th>Description</th>
+                                <th>Category</th>
+                                <th>Location</th>
+                            </tr>
+                        </thead>
+                        <tr>
+                            <td>Business name comes here</td>
+                            <td>We give a little description about our business</td>
+                            <td>Which Category does it fall in</td>
+                            <td>Where is it located</td>
+                        </tr>
+                        <tr>
+                            <td>Redlion Co.</td>
+                            <td>We started to make your life better</td>
+                            <td>Lifestyle</td>
+                            <td>Nowhere</td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+            <div>
+                <footer >
+                    <div class="container" >
+                        <div class="nav">
+                            <ul class="nav nav-pills nav-justified">
+                                <li class="nav-item "><a class="nav-link" href="#">Dashboard</a></li>
+                                <li class="nav-item"><a class="nav-link" href="reg_business.html">Register Business</a></li>
+                                <li class="nav-item"><a class="nav-link" href="index.html">Logout</a></li>
+                            </ul>
+                        </div>
+                        <p class="copyright text-muted small">Copyright © 2018 Redlion. All Rights Reserved</p>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </body>
+</html>

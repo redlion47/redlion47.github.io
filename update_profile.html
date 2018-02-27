@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Edit Business</title>
+        <link rel="stylesheet" type="text/css" href="static/CSS/style.css">
+        <link rel="shortcut icon" href="static/IMG/favicon.ico">
+    </head>
+    <body>
+        <div>
+            <div>
+                <nav class=" navbar navbar-expand-lg navbar-light bg-light ">
+                    <div>
+                        <h1><a href="#">WeConnect</a></h1>
+                    </div>
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsiblepanel" aria-controls="collapsiblepanel" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="justify-content-end collapse navbar-collapse" id="collapsiblepanel">
+                        <ul class="nav nav-pills nav-justified">
+                            <li class="nav-item "><a class="nav-link" href="#">Dashboard</a></li>
+                            <li class="nav-item "><a class="nav-link active" href="#">Edit Business</a></li>
+                            <li class="nav-item"><a class="nav-link" href="b_list.html">Businesses</a></li>
+                            <li class="nav-item"><a class="nav-link" href="index.html">Logout</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            
+            <div class="my-bg-img">
+                <h1>Register a business on WeConnect!</h1></br>
+                <form class="form-format" action="b_profile.html">
+                    <div class="label-format">
+                        <div class="form-group">
+                            <label for="b_name">Business Name: </label>
+                            <input type="text" class="form-control" id="b_name">
+                        </div>
+                        <div class="form-group ">
+                            <label for="b_category">Category: </label>
+                            <input type="text" class="form-control" id="b_category">
+                        </div>
+                        <div class="form-group">
+                            <label for="b_location">Location: </label>
+                            <input type="text" class="form-control" id="b_location">
+                        </div>
+                        <div class="form-group">
+                            <label for="b_contacts">Contacts: </label>
+                            <textarea class="form-control" rows="5" id="b_contacts"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="b_description">Description: </label>
+                            <textarea class="form-control" rows="5" id="b_description"></textarea>
+                        </div>
+                        <div>
+                            <button type="submit" class="btn btn-outline-primary">Edit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div>
+                <footer >
+                    <div class="container" >
+                        <div class="nav">
+                            <ul class="nav nav-pills nav-justified">
+                                <li class="nav-item "><a class="nav-link" href="#">Dashboard</a></li>
+                                <li class="nav-item"><a class="nav-link" href="b_list.html">Businesses</a></li>
+                                <li class="nav-item"><a class="nav-link" href="index.html">Logout</a></li>
+                            </ul>
+                        </div>
+                        <p class="copyright text-muted small">Copyright © 2018 Redlion. All Rights Reserved</p>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </body>
+</html>
