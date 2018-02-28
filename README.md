@@ -1,6 +1,6 @@
 # redlion47.github.io
 
-*WeConnect*
+# *WeConnect*
 > This is a platform that networks businesses
 and enables people to rate the businesses they interact with.
 
