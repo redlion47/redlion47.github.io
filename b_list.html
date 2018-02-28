@@ -2,11 +2,14 @@
 <html>
     <head>
         <title>Business List</title>
-        <link rel="stylesheet" type="text/css" href="static/CSS/style.css">
-        <link rel="shortcut icon" href="static/IMG/favicon.ico">
+        <link rel="stylesheet" type="text/css" href="../static/CSS/style.css">
+        <link rel="shortcut icon" href="../static/IMG/favicon.ico">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </head>
     <body>
-        <div>
+        <div class="body-extend">
             <div>
                 <nav class=" navbar navbar-expand-lg navbar-light bg-light ">
                     <div>
@@ -17,7 +20,7 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="justify-content-end collapse navbar-collapse" id="collapsiblepanel">
-                        <ul class="nav nav-pills navbar-nav ">
+                        <ul class="nav nav-pills nav-justified ">
                             <li class="nav-item "><a class="nav-link" href="#">Dashboard</a></li>
                             <li class="nav-item "><a class="nav-link" href="reg_business.html">Register Business</a></li>
                             <li class="nav-item"><a class="nav-link active" href="#">Businesses</a></li>
@@ -32,9 +35,18 @@
                 <div class="navbar navbar-dark justify-content-end">
                     <form class="form-inline" action="#">
                         <input type="text" class="form-control mr-sm-2" placeholder="Search">
-                        <div class="nav-item dropdown">
-                            <button type="button" class="nav-link dropdown-toggle btn btn-primary" data-toggle="dropdown" id="category">Category filter</button>
-                            <div class="dropdown-menu">
+                        <button type="submit" class="btn btn-success">Search</button>
+                    </form>
+
+
+
+                    
+
+
+
+                        <div class="dropdown">
+                            <button type="button" class="btn btn-secondary dropdown-toggle " data-toggle="dropdown" id="category" aria-haspopup="true" aria-expanded="false">Category filter</button>
+                            <div class="dropdown-menu" aria-labelledby="category" >
                                 <a class="dropdown-item" href="#">First Category</a>
                                 <a class="dropdown-item" href="#">Second Category</a>
                                 <a class="dropdown-item" href="#">Third Category</a>
@@ -48,8 +60,6 @@
                                 <a class="dropdown-item" href="#">Third Location</a>
                             </div>
                         </div>
-                        <button type="submit" class="btn btn-success">Search</button>
-                    </form>
                 </div>
                 <div class="table-center">
                     <table class="table table-bordered table-hover table-sm" >
