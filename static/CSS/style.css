@@ -3,31 +3,27 @@
 body, html {
     height: 100%;
     width: 100%;
-    background-color: #c0b283 ;
+    color: #47afaf;
+    background-color: #e9e9e9 ;   /*c0b283 */
 }
 body, h1, h2, h3 {
     font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 900px;
 }
 h1 {
-    color: #f8f8f8;
+    color: #282827;/*f8f8f8*/
 }
 .form-format {
     vertical-align: middle;
-    /*display: table-cell;*/
     max-width:500px;
-    color: #cc33ff;
     text-align: center;
     margin: auto;
     width: 50%;
     height: 50%;
 }
 .label-format {
-    text-align: center;
+    text-align: left;
     width: 70%;
-}
-input {
-    max-width: 50%
 }
 .my-bg-img {
     display: table;
@@ -43,24 +39,18 @@ footer {
 }
 .table-center {
     text-align: left;
-    color: #cc33ff;
-    padding-left: 50px;
-    padding-right: 50px;
+    max-width: 70%;
+    margin: 0 auto;
+
 }
 th {
     font-size: 24px;
     font-weight: 900px;
 }
-p, h2 {
-    color: #b82601;
-}
-body {
-    color: #cc33ff;
-}
 .body-extend{
     height: 71.5%;
-    /*min-height: 100vh;*/
 }
-
-
+div {
+    margin: 0 auto;
+}
 
